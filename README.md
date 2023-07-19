@@ -35,7 +35,7 @@ Este foi um projeto desenvolvido com o intuito de demonstrar minhas habilidades 
 
 ## :bookmark_tabs: Requisitos
 Para executar este projeto, você precisa do [Git](https://git-scm.com/).
-É recomendável usar um editor de código como [VsCode](https://code.visualstudio.com/) e alguma IDE para o java como o [Eclipse](https://www.eclipse.org/downloads/).
+É recomendável usar um editor de código como [VsCode](https://code.visualstudio.com/), alguma IDE para o java como o [Eclipse](https://www.eclipse.org/downloads/) e o [MySql](https://dev.mysql.com/downloads/mysql/) server para o banco de dados.
 
 ---
 
