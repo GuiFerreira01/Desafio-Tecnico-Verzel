@@ -18,7 +18,7 @@
 
 ## :clipboard: Sobre
 
-Este foi um porjeto desenvolvido com o intuito de demonstrar minhas habilidades em desenvolvimento web. É um site criado com ReactJS no front-end e Java com o framework Spring Boot no back-end, inspirado no site KVAK. Foi dado foco à implementação correta das funcionalidades solicitadas, à interface atraente e à segurança da aplicação.
+Este foi um projeto desenvolvido com o intuito de demonstrar minhas habilidades em desenvolvimento web. É um site criado com ReactJS no front-end e Java com o framework Spring Boot no back-end, inspirado no site KAVAK. Foi dado foco à implementação correta das funcionalidades solicitadas, à interface atraente e à segurança da aplicação.
 
 ---
 ## :computer: Tecnologias
@@ -34,7 +34,7 @@ Este foi um porjeto desenvolvido com o intuito de demonstrar minhas habilidades 
 ---
 
 ## :bookmark_tabs: Requisitos
-Para executar este projeto, você precisa do [Git](https://git-scm.com/)
+Para executar este projeto, você precisa do [Git](https://git-scm.com/).
 É recomendável usar um editor de código como [VsCode](https://code.visualstudio.com/) e alguma IDE para o java como o [Eclipse](https://www.eclipse.org/downloads/).
 
 ---
@@ -43,7 +43,7 @@ Para executar este projeto, você precisa do [Git](https://git-scm.com/)
 * Primeiro clone o repositório com o comando abaixo:
 ```bash
     # Usando o Git bash, clone o repositório
-    $ https://github.com/GuiFerreira01/Desafio-Tecnico-Verzel.git
+    $ git clone https://github.com/GuiFerreira01/Desafio-Tecnico-Verzel.git
 ```
 
 * Depois disso, entre na pasta principal do projeto.
@@ -67,7 +67,7 @@ Para executar este projeto, você precisa do [Git](https://git-scm.com/)
 ```
 
 * No arquivo .env.exemple, esta o exemplo de como se deve criar o arquivo .env, com a variavel de ambiente.
-aaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 ```bash
     # Variavel de ambinete
     $ REACT_APP_API = 
@@ -80,7 +80,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaa
     $ npm start
 ```
 
-* Em seguida, abra seu navegador ( ou utilize algum programa como o insomnia por exemplo ) e digite a url: *localhost:3000*
+* Em seguida, abra seu navegador e digite a url: *localhost:3000*
 
 ```bash
     # O projeto será executado na porta:3000
@@ -95,7 +95,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaa
 * Agora basta configurar o arquivo application.properties
 
 ```bash
-    # spring.datasource.url=Url do bando de dados mysql (Ex: jdbc:mysql://localhost:3306/teste67)
+    # spring.datasource.url=Url do banco de dados mysql (Ex: jdbc:mysql://localhost:3306/teste67)
     # spring.datasource.username= Username do mysql
     # spring.datasource.password= Senha do mysql
     # spring.jpa.hibernate.ddl-auto= ('update' para criar o banco de dados)
@@ -104,9 +104,10 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaa
     # server.port = (Porta onde a aplicação ira rodar recomendo q seja 8080)
 
 ```
-* Caso escolha uma porta diferente da 8080 vc deve alterar isto no /src/utils/api.js 
+* Caso escolha uma porta diferente da 8080 vc deve alterar isto no front-end 
 
 ```bash
+    #/src/utils/api.js 
     baseURL: 'http://localhost:8080/'
 ```
 ---
