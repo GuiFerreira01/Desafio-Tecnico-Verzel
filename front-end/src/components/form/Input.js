@@ -8,7 +8,8 @@ function Input({
   handleOnChange,
   value,
   multiple,
-  pattern
+  pattern,
+  accept
 }) {
   return (
     <div className={styles.form_control}>
@@ -21,6 +22,7 @@ function Input({
         onChange={handleOnChange}
         value={value}
         pattern={pattern}
+        accept={accept}
         {...(multiple ? { multiple } : '')}
       />
     </div>

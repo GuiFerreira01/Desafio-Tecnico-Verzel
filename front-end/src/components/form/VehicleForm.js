@@ -92,6 +92,7 @@ function VehicleForm({ handleSubmit, vehicleData, btnText, isCreation = true }) 
         text="Imagens do veículo"
         type="file"
         name="images"
+        accept={"image/*"}
         handleOnChange={onFileChange}
         multiple={true}
       />
