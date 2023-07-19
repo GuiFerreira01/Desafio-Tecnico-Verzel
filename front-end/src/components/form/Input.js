@@ -9,7 +9,8 @@ function Input({
   value,
   multiple,
   pattern,
-  accept
+  accept,
+  maxlength
 }) {
   return (
     <div className={styles.form_control}>
@@ -23,6 +24,7 @@ function Input({
         value={value}
         pattern={pattern}
         accept={accept}
+        maxlength={maxlength}
         {...(multiple ? { multiple } : '')}
       />
     </div>

@@ -130,6 +130,7 @@ function VehicleForm({ handleSubmit, vehicleData, btnText, isCreation = true }) 
         type="text"
         name="state"
         placeholder="Ex: SP"
+        maxlength={2}
         handleOnChange={handleChange}
         value={vehicle.state || ''}
       />
@@ -146,7 +147,7 @@ function VehicleForm({ handleSubmit, vehicleData, btnText, isCreation = true }) 
         type="number"
         name="year"
         placeholder="Ex: 0000"
-        pattern={'.{4,}'}
+        maxlength={4}
         value={vehicle.year || ''}
         handleOnChange={handleChange}
       />
